@@ -1,0 +1,17 @@
+0 silly argv { _: [ 'import' ],
+0 silly argv   lernaVersion: '3.18.4',
+0 silly argv   '$0': 'lerna',
+0 silly argv   dir: '/home/ggk/Desktop/Vue-learn' }
+1 notice cli v3.18.4
+2 verbose rootPath /home/ggk/Desktop/new-monorepo
+3 error Error: Command failed: git log --format=%h
+3 error fatal: Not a git repository (or any of the parent directories): .git
+3 error
+3 error
+3 error     at makeError (/home/ggk/Desktop/new-monorepo/node_modules/execa/index.js:174:9)
+3 error     at Function.module.exports.sync (/home/ggk/Desktop/new-monorepo/node_modules/execa/index.js:338:15)
+3 error     at Object.execSync (/home/ggk/Desktop/new-monorepo/node_modules/@lerna/child-process/index.js:26:16)
+3 error     at ImportCommand.externalExecSync (/home/ggk/Desktop/new-monorepo/node_modules/@lerna/import/index.js:147:34)
+3 error     at ImportCommand.initialize (/home/ggk/Desktop/new-monorepo/node_modules/@lerna/import/index.js:82:25)
+3 error     at Promise.resolve.then (/home/ggk/Desktop/new-monorepo/node_modules/@lerna/command/index.js:271:24)
+3 error     at <anonymous>
